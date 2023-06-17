@@ -1,0 +1,4 @@
+avg_glucose_level,bmi,stroke,age,gender_Male,ever_married_Yes,work_type_Never_worked,work_type_Private,work_type_Self-employed,work_type_children,Residence_type_Urban,smoking_status_formerly smoked,smoking_status_never smoked,smoking_status_smokes
+-2.344295911,-3.679136076,,0.609160598,1,1,0,1,0,0,1,0,1,0
+-2.344295911,-3.679136076,0.0,0.609160598,1,1,0,1,0,0,1,0,1,0
+-1.15169346649764,-0.7516918907892367,0.0,0.6091605982474658,1,1,0,1,0,0,1,0,1,0
