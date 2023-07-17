@@ -51,7 +51,7 @@ def user_report():
         bmi = float(st.number_input('Your current BMI',min_value=0.0))
         
     if(age >=18 and work_type=='Children (below 18 yrs age)'):
-        #st.error('Please check your age and worktype, either of them is incorrect')
+        st.error('Please check your age and worktype, either of them is incorrect')
         raise Exception('Please check your age and worktype, either of them is incorrect')
         
     new_data = {
