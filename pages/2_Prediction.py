@@ -50,7 +50,10 @@ def user_report():
         avg_glucose_level =float (st.number_input('Your Average glucose level',min_value=0.0))
         bmi = float(st.number_input('Your current BMI',min_value=0.0))
         
-    
+    if(age >=18 and work_type=='Children (below 18 yrs age)'):
+        #st.error('Please check your age and worktype, either of them is incorrect')
+        raise Exception('Please check your age and worktype, either of them is incorrect')
+        
     new_data = {
         'gender':gender,
         'age':age,
